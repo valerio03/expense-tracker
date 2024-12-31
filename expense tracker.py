@@ -70,6 +70,7 @@ def delete_expense():
     except ValueError:
         print("Invalid input. Please enter a valid ID.")
 
+#menu_function
 def show_menu():
     print("\n--- Personal Expense Tracker ---")
     print("1. Add Expense")
